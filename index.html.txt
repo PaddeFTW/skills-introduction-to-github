@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min To-Do-Lista</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Min To-Do-Lista</h1>
+        <input type="text" id="taskInput" placeholder="Lägg till en uppgift">
+        <button onclick="addTask()">Lägg till</button>
+        <ul id="taskList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
